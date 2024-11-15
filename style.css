@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  border: 1px solid #000;
+  margin-top: 20px;
+  touch-action: none;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-btn:focus {
+  outline: 2px solid #ddd;
+}
